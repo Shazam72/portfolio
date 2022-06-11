@@ -1,0 +1,7 @@
+$main-hue: 250;
+$primary: hsl($main-hue, 69%, 61%);
+$general-color: #424141;
+$body-color: #fff;
+$text-hue: 250;
+$text-color: hsl($text-hue, 1%, 15%);
+$primary-darken-1:darken($color: $primary, $amount: 25);

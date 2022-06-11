@@ -1,0 +1,108 @@
+@import "variables";
+.poppins-black {
+  font-family: "Poppins Black";
+}
+.poppins-bold {
+  font-family: "Poppins Bold";
+}
+.poppins-light {
+  font-family: "Poppins Light";
+}
+.poppins-regular {
+  font-family: "Poppins Regular";
+}
+.poppins-thin {
+  font-family: "Poppins Thin";
+}
+.poppins-extrabold {
+  font-family: "Poppins ExtraBold";
+}
+.poppins-extralight {
+  font-family: "Poppins ExtraLight";
+}
+.poppins-medium {
+  font-family: "Poppins Medium";
+}
+.poppins-semibold {
+  font-family: "Poppins SemiBold";
+}
+
+.outline-none {
+  outline: none;
+}
+.primary-color{
+  color: $primary;
+}
+// .secondary-color{
+//   color: $primary;
+// }
+// .light-shadow {
+//   box-shadow: 0 0 9px 2px rgba(0, 0, 0, 0.096);
+// }
+.cursor-pointer {
+  cursor: pointer;
+}
+.container {
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+.grid{
+  display: grid;
+}
+.flex{
+  display: flex;
+}
+.logo {
+  a{
+    line-height: 1.7rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: $general-color;
+  .first_letter {
+    color: $primary;
+    font-size: 2.5rem;
+  }
+  }
+}
+.btn{
+  text-decoration: none;
+  color: $primary;
+   &:hover{
+     color: $primary-darken-1;
+   }
+}
+.section{
+  padding: 2rem 0 4rem;
+
+
+}
+.section-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: $primary;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    &:hover {
+      background-color: darken($color: $primary, $amount: 10);
+    }
+}
+.title{
+  font-size:3rem;
+  font-family: "Poppins Semibold";
+}
+.subtitle{
+  font-size:1.8rem;
+  font-family: "Poppins Semibold";
+  color: lighten($color: $primary, $amount: 10);
+}
+.text-capitalize{
+  text-transform: capitalize;
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+.text-center{
+  text-align: center;
+}

@@ -4,7 +4,463 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+    <script defer src="./js/app.js"></script>
     <title>Portfolio Modèle 1</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="wrapper container flex">
+        <div class="logo">
+          <a href="#">
+            <span class="name poppins-extrabold"
+              ><span class="first_letter">Jf</span>rançois</span
+            >
+          </a>
+        </div>
+        <nav class="flex">
+          <div class="nav_list">
+            <ul class="grid">
+              <li>
+                <a href="#home" class="btn flex"
+                  ><i class="fas fa-home"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="btn flex"
+                  ><i class="fas fa-user"></i> About</a
+                >
+              </li>
+              <li>
+                <a href="#skills" class="btn flex"
+                  ><i class="fas fa-clipboard-check"></i> Skills</a
+                >
+              </li>
+              <li>
+                <a href="#services" class="btn flex"
+                  ><i class="fas fa-briefcase"></i> Services</a
+                >
+              </li>
+              <li>
+                <a href="#portfolio" class="btn flex"
+                  ><i class="fas fa-images"></i> Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="#" class="btn flex"
+                  ><i class="fab fa-telegram-plane"></i> Contact me</a
+                >
+              </li>
+            </ul>
+            <div class="nav_toggle cursor-pointer"></div>
+          </div>
+
+          <div class="theme-mode cursor-pointer">
+            <i class="fas fa-moon"></i>
+          </div>
+          <div class="nav_toggle cursor-pointer">
+            <i class="fas fa-th-large"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="section home" id="home">
+      <div class="wrapper container grid">
+        <div class="home_links flex">
+          <a href="#" class="home_link">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="home_link">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="home_img">
+          <svg
+            class="home_blob"
+            viewBox="0 0 200 187"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                  165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                  129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                  -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+              />
+              <image href="" />
+            </g>
+          </svg>
+        </div>
+        <div class="home_data">
+          <h2 class="title home_title">Hello, I'm Jean-Francois Zouba</h2>
+          <h3 class="subtitle home_subtitle">Web/Web Mobile Developper</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+            perspiciatis tempora, recusandae repellendus nam.
+          </p>
+          <div class="home_btns flex">
+            <a href="#" class="poppins-semibold home_btn"
+              >Contact me <i class="fab fa-telegram-plane"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section about" id="about">
+      <h2 class="title about_title text-capitalize text-center">About me</h2>
+      <h3 class="subtitle about_subtitle text-center">My introduction</h3>
+      <div class="wrapper container grid">
+        <img src="./imgs/about.jpg" alt="" />
+
+        <div class="about_data">
+          <p class="about_description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quasi
+            minus eaque.
+          </p>
+          <div class="about_infos flex">
+            <div class="about_info flex">
+              <span class="about_info-number">20+</span>
+              <span class="about_info-description"
+                >Years <br />
+                experience</span
+              >
+            </div>
+            <div class="about_info flex">
+              <span class="about_info-number">20+</span>
+              <span class="about_info-description"
+                >Years <br />
+                experience</span
+              >
+            </div>
+            <div class="about_info flex">
+              <span class="about_info-number">20+</span>
+              <span class="about_info-description"
+                >Years <br />
+                experience</span
+              >
+            </div>
+          </div>
+          <div class="about_btns flex">
+            <a download=".pdf/Alexa-Cv.pdf" class="about_btn"
+              >Download CV <i class="fas fa-download"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section skills" id="skills">
+      <h2 class="title text-center text-capitalize skills_title">Skills</h2>
+      <h3 class="subtitle skills_subtitle text-center">My technical level</h3>
+      <div class="wrapper container grid">
+        <div class="skill">
+          <div class="skill_header flex cursor-pointer">
+            <i class="fas fa-user"></i>
+            <h4 class="skill_title text-center">
+              Front-end <br />
+              <span class="skill_experience">More than 7 years</span>
+            </h4>
+            <i class="fas fa-angle-down angle_icon"></i>
+          </div>
+          <div class="skills_data">
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">HTML</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">CSS/SCSS</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">JavaScript</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">React</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill_header flex cursor-pointer">
+            <i class="fas fa-user"></i>
+            <h4 class="skill_title text-center">
+              Front-end <br />
+              <span class="skill_experience">More than 7 years</span>
+            </h4>
+            <i class="fas fa-angle-down angle_icon"></i>
+          </div>
+          <div class="skills_data">
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">HTML</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">CSS/SCSS</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">JavaScript</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">React</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill_header flex cursor-pointer">
+            <i class="fas fa-user"></i>
+            <h4 class="skill_title text-center">
+              Front-end <br />
+              <span class="skill_experience">More than 7 years</span>
+            </h4>
+            <i class="fas fa-angle-down angle_icon"></i>
+          </div>
+          <div class="skills_data">
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">HTML</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">CSS/SCSS</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">JavaScript</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+            <div class="skill_item">
+              <div class="skill_item-title flex">
+                <h5 class="skill_item-name">React</h5>
+                <span class="skill_item-number">90%</span>
+              </div>
+              <div class="skill_item-bar">
+                <span class="skill_item-percentage"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section qualifications" id="qualifications">
+      <h2 class="title qualification_title text-capitalize text-center">
+        Qualifications
+      </h2>
+      <h3 class="subtitle qualifications_subtitle text-center">My knowledge & experiences</h3>
+      <div class="wrapper container">
+          <div class="grid qualifications_timeline">
+            
+            <div class="qualification">
+              <span class=" qualification_circle">
+              </span>
+              <h4 class="poppins-semibold">Computer Engineer</h4>
+              <div class="qualification_place">
+                Pékin - Chine
+              </div>
+              <div class="qualification_date">
+                <i class="fas fa-calendar-alt"></i>
+                2014-2020
+              </div>
+            </div>
+
+            <div class="qualification">
+              <span class=" qualification_circle">
+              </span>
+              <h4 class="poppins-semibold">Computer Engineer</h4>
+              <div class="qualification_place">
+                Pékin - Chine
+              </div>
+              <div class="qualification_date">
+                <i class="fas fa-calendar-alt"></i>
+                2014-2020
+              </div>
+            </div>
+            
+            <div class="qualification">
+              <span class=" qualification_circle">
+              </span>
+              <h4 class="poppins-semibold">Computer Engineer</h4>
+              <div class="qualification_place">
+                Pékin - Chine
+              </div>
+              <div class="qualification_date">
+                <i class="fas fa-calendar-alt"></i>
+                2014-2020
+              </div>
+            </div>
+            
+            <div class="qualification">
+              <span class=" qualification_circle">
+              </span>
+              <h4 class="poppins-semibold">Computer Engineer</h4>
+              <div class="qualification_place">
+                Pékin - Chine
+              </div>
+              <div class="qualification_date">
+                <i class="fas fa-calendar-alt"></i>
+                2014-2020
+              </div>
+            </div>
+            <div class="qualification">
+              <span class=" qualification_circle">
+              </span>
+              <h4 class="poppins-semibold">Computer Engineer</h4>
+              <div class="qualification_place">
+                Pékin - Chine
+              </div>
+              <div class="qualification_date">
+                <i class="fas fa-calendar-alt"></i>
+                2014-2020
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section services" id="services">
+      <h2 class="title text-center text-capitalize">
+        Services
+      </h2>
+      <h3 class="subtitle text-center">My services</h3>
+      <div class="wrapper container flex">
+        <div class="service flex">
+          <div class="service_container flex">
+            <i class="fas fa-user service_icon"></i>
+            <h4>Web developper</h4>
+            <button class="outline-none cursor-pointer service_modal-trigger poppins-medium">
+              View more <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="service_modal flex">
+            <div class="service_modal-content">
+              <div class="service_modal-dismiss cursor-pointer">
+                <span></span>
+              </div>
+                <h4>Web developper</h4>
+                <ul class="service_modal-services-list">
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    I developp your web site
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    I developp your web site
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    I developp your web site
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    I developp your web site
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="service flex">
+          <div class="service_container flex">
+            <i class="fas fa-user service_icon"></i>
+            <h4>Web developper</h4>
+            <button class="outline-none cursor-pointer service_modal-trigger poppins-medium">
+              View more <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="service_modal flex">
+            <div class="service_modal-content">
+              <div class="service_modal-dismiss cursor-pointer">
+                <span></span>
+              </div>
+                <h4>Web developper</h4>
+                <ul class="service_modal-services-list">
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    I developp your web site
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    I developp your web site
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    I developp your web site
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    I developp your web site
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
